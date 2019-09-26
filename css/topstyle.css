@@ -1,0 +1,134 @@
+ /*common*/
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+header.headblock {
+  padding: 60px 0 120px 0;
+}
+
+footer {
+  font-family: "arial unicode ms";
+}
+footer h5 {
+  font-size: 15px;
+  text-align: center;
+}
+
+
+ /*top*/
+
+#top{
+  width:78%;
+  margin: 0 auto;
+}
+
+.logo1 {
+  width:180px;
+  float : left;
+}
+.icon {
+  height: 14px;
+}
+.mainlist li {
+  display: inline-block;
+  list-style : none ;
+  font-size: 18px ;
+  float : left;
+  padding : 3px 24px 0px 24px;
+  margin : 22px 0px 0 8px;
+  background-color: white;
+  color : black;
+  border-radius: 18px;
+  font-family: "arial unicode ms";
+  cursor: pointer;
+}
+.header-right {
+  float:right;
+}
+.mainlist li:hover {
+  background-color: black;
+  color : white;
+  transition:0.5s;
+}
+.mainlist .l-icon:hover{
+  background-color: #00B900;
+  color : white;
+  transition:0.5s;
+}
+.mainlist .t-icon:hover {
+  background-color: #1DA1F2;
+  color : white;
+  transition:0.5s;
+}
+
+/*.top テキストエリア*/
+.top h1 {
+  font-size : 70px;
+  line-height : 24px;
+  font-family: "Courier";
+}
+.top h2 {
+  font-size : 26px;
+  font-family: "arial unicode ms";
+  padding-bottom :30px ;
+}
+/*.コンテンツエリア*/
+.cintents {
+  font-family: "arial unicode ms";
+}
+.contents {
+  display: inline-block;
+}
+
+
+.tile2 {
+  width :48%;
+}
+.tile3 {
+  width :30.6666%;
+}
+
+.contents .photo{
+  width : 100%;
+}
+.tile2-1 {
+  float:left;
+}
+.tile2-2 {
+  float:right;
+}
+.tile3 {
+  float:left;
+}
+.tile3-1 {
+  margin-right: 4%;
+}
+.tile3-3 {
+  margin-left: 4%;
+}
+
+
+.contents .mark{
+  display: inline-block;
+  font-size:15px;
+  padding : 3px 20px 0px 20px;
+  margin-top : 10px;
+  background-color: black;
+  color:white;
+  border-radius: 18px;
+  letter-spacing: 3px;
+}
+.contents h3 {
+  font-size: 25px;
+  padding-top:10px;
+  line-height: 0px;
+}
+.contents h4 {
+  font-size: 16px;
+  padding: 10px 0 40px 0 ;
+  line-height: 0px;
+}
